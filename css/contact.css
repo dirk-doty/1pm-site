@@ -1,0 +1,43 @@
+.pg{font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;background:#fff;color:#1d1d1f;min-height:100vh;display:flex;flex-direction:column}
+.nav{height:66px;background:#000;display:flex;align-items:center;justify-content:space-between;padding:0 44px;font-size:15px;border-bottom:1px solid rgba(255,255,255,.1);position:sticky;top:0;z-index:50}
+.logoimg{height:34px;width:auto;display:block}
+.navr{display:flex;gap:30px;align-items:center}
+.nav a{color:#c3cdd0;text-decoration:none;font-weight:500}
+.nav a.on{color:#fff}
+.hero{padding:110px 44px 60px;max-width:1180px;margin:0 auto;width:100%}
+.eyebrow{font-size:16px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#8A8E98}
+.h1{font-size:70px;font-weight:700;letter-spacing:-2.5px;line-height:.98;margin-top:16px;color:#1d1d1f}
+.lede{font-size:22px;font-weight:400;color:#515157;max-width:56ch;margin-top:24px;line-height:1.5}
+.gen{max-width:1180px;margin:0 auto 100px;width:100%;padding:0 44px}
+.genbar{background:#f4f4f6;border:1px solid rgba(0,0,0,.09);border-radius:24px;padding:44px 48px;display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap}
+.genh{font-size:26px;font-weight:700;letter-spacing:-.02em;color:#1d1d1f}
+.gensub{font-size:16px;color:#606A6F;margin-top:6px}
+.gencontact{display:flex;gap:40px;flex-wrap:wrap}
+.row{display:flex;flex-direction:column;gap:4px}
+.rlabel{font-size:14px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#8A8E98}
+.rval{font-size:19px;font-weight:500;color:#1d1d1f;text-decoration:none}
+a.rval:hover{color:#2170b8}
+.foot{margin-top:auto;border-top:1px solid rgba(0,0,0,.08);padding:32px 44px;font-size:12px;color:#86868b;display:flex;justify-content:space-between;align-items:center}
+
+/* ============ MOBILE ONLY (desktop above is unchanged) ============ */
+@media (max-width: 680px) {
+  .nav{padding:0 18px}
+  .logoimg{height:28px}
+  .navr{gap:16px}
+  .nav a{font-size:13px}
+
+  .hero{padding:56px 20px 32px}
+  .eyebrow{font-size:13px}
+  .h1{font-size:34px;letter-spacing:-1px}
+  .lede{font-size:16px;margin-top:14px;max-width:none}
+
+  .gen{padding:0 20px;margin-bottom:48px}
+  .genbar{padding:24px 20px;border-radius:16px;flex-direction:column;align-items:flex-start;gap:20px}
+  .genh{font-size:20px}
+  .gensub{font-size:14px}
+  .gencontact{gap:20px}
+  .rlabel{font-size:12px}
+  .rval{font-size:16px}
+
+  .foot{padding:20px 18px;flex-wrap:wrap;gap:8px}
+}

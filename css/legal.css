@@ -1,0 +1,43 @@
+.pg{font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;background:#fff;color:#1d1d1f;min-height:100vh;display:flex;flex-direction:column}
+.nav{height:66px;background:#000;display:flex;align-items:center;justify-content:space-between;padding:0 44px;position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(255,255,255,.1)}
+.logoimg{height:43px;width:auto;display:block}
+.navr{display:flex;gap:30px;align-items:center}
+.nav a{color:#fff;text-decoration:none;font-weight:500;font-size:15px}
+.wrap{max-width:820px;margin:0 auto;width:100%;padding:96px 44px 120px}
+.eyebrow{font-size:14px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#8A8E98}
+.h1{font-size:60px;font-weight:700;letter-spacing:-2px;line-height:1;margin-top:16px}
+.updated{font-size:15px;color:#86868b;margin-top:18px}
+.lead{font-size:20px;line-height:1.6;color:#3a3a40;margin-top:30px}
+.sec{margin-top:44px}
+.sh{font-size:24px;font-weight:700;letter-spacing:-.4px;color:#1d1d1f}
+.sp{font-size:17px;line-height:1.65;color:#48484f;margin-top:12px}
+.sp a{color:#2170b8;text-decoration:none}
+.ul{margin:12px 0 0 20px}
+.ul li{font-size:17px;line-height:1.65;color:#48484f;margin-top:8px}
+.foot{margin-top:auto;background:#f5f5f7;height:66px;display:flex;align-items:center;justify-content:space-between;padding:0 44px;font-size:12px;color:#86868b}
+.foot a{color:#393944;text-decoration:none}
+.footr{display:flex;gap:28px;align-items:center}
+.footr .div{width:1px;height:13px;background:#c4c4cc}
+
+/* ============ MOBILE ONLY (desktop above is unchanged) ============ */
+@media (max-width: 680px) {
+  .nav{padding:0 18px}
+  .logoimg{height:30px}
+  .navr{gap:16px}
+  .nav a{font-size:13px}
+
+  .wrap{padding:48px 20px 64px}
+  .eyebrow{font-size:12px}
+  .h1{font-size:32px;letter-spacing:-1px}
+  .updated{font-size:13px;margin-top:10px}
+  .lead{font-size:16px;margin-top:16px}
+
+  .sec{margin-top:28px}
+  .sh{font-size:19px}
+  .sp{font-size:15px;margin-top:8px}
+  .ul{margin-left:18px}
+  .ul li{font-size:15px}
+
+  .foot{height:auto;min-height:56px;padding:12px 18px;flex-wrap:wrap;gap:8px;font-size:11px}
+  .footr{gap:14px}
+}
