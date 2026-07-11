@@ -30,7 +30,7 @@ body{background:#0b0f0d;color:#f4f6f4}
 .bh{font-size:68px;font-weight:800;letter-spacing:-.045em;line-height:1.06;max-width:24ch;margin:0 auto;color:#1d1d1f}
 .mission-subhead{font-size:34px;font-weight:800;letter-spacing:-.045em;margin-top:80px;color:#1d1d1f}
 .accent{color:#7ee6a8}
-.bsub{font-size:22px;font-weight:400;color:#9aa39d;max-width:52ch;margin:36px auto 0;line-height:1.55}
+.bsub{font-size:22px;font-weight:400;color:#9aa39d;max-width:46ch;margin:36px auto 0;line-height:1.55}
 
 /* Original IP */
 .ip{position:relative;min-height:680px;display:flex;align-items:flex-end;background-size:cover;background-position:center}
